@@ -93,3 +93,21 @@ ul {
     width: 500px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #b0c0cf;
+}
+
+.content .info {
+    max-width: 200px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
