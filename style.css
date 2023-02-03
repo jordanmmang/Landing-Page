@@ -25,10 +25,14 @@ ul {
     gap: 20px;
 }
 
-.left, .right {
-    display: flex;
-    gap: 20px;
+.container {
+    flex-direction: row;
 }
+
+.left {
+    flex-direction: column;
+}
+
 
 .container img {
     width: 500px;
