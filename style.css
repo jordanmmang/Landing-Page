@@ -54,7 +54,7 @@ ul {
     color:#8271b8
 }
 
-.text {
+.container .text {
     margin-bottom: 10px;
     color:#ca9acc
 }
@@ -93,15 +93,26 @@ ul {
     width: 500px;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: #b0c0cf;
+.info-title {
+    padding-top: 30px;
+    font-size: 25px;
+    background-color:#b0c0cf;
+    color: blanchedalmond;
+    text-align: center;
 }
 
-.content .info {
-    max-width: 200px;
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: #b0c0cf;
+    text-align: center;
+}
+
+.content .text {
+    color: blanchedalmond;
 }
 
 .content img {
