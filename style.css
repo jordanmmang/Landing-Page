@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    background: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: blanchedalmond;
+    color:palevioletred;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.left, .right {
+    display: flex;
+    gap: 20px;
+}
+
+.container img {
+    width: 500px;
+}
+
