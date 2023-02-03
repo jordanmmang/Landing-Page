@@ -118,7 +118,29 @@ ul {
 .content img {
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
+.quote, .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #997fc6;
+    color: blanchedalmond;
+}
+
+.quote {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.author {
+    padding-bottom: 80px;
+    font-weight: bold;
+}
 
 
