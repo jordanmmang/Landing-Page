@@ -11,7 +11,14 @@ body {
     margin: 20px;
     padding: 10px;
     background: blanchedalmond;
-    color:palevioletred;
+}
+
+.logo {
+    color:#8271b8;
+}
+
+.links {
+    color:#ca9acc;
 }
 
 .container {
@@ -22,6 +29,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
 }
 
 ul {
@@ -38,13 +49,41 @@ ul {
 }
 
 .title {
-    font-size: 50px;
     margin-bottom: 10px;
+    font-size: 50px;
+    color:#8271b8
 }
 
 .text {
     margin-bottom: 10px;
+    color:#ca9acc
 }
+
+/* CSS */
+.button-33 {
+  background-color: #dfaedb;
+  border-radius: 100px;
+  box-shadow: #d794bf 0 -25px 18px -14px inset,#d398c6 0 1px 2px,#d398c6 0 2px 4px,#d398c6 0 4px 8px,#d398c6 0 8px 16px,#d398c6 0 16px 32px;
+  color: blanchedalmond;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: #987ac0 0 -25px 18px -14px inset,#987ac0 0 1px 2px,#987ac0 0 2px 4px,#987ac0 0 4px 8px,#987ac0 0 8px 16px,#987ac0 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
 
 .right {
     padding: 100px
