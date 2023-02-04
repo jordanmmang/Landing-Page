@@ -143,4 +143,47 @@ ul {
     font-weight: bold;
 }
 
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 100px;
+    margin-left: 220px;
+    margin-right: 220px;
+    border: 10px;
+    border-radius: 10px;
+    background-color: #d895c0;
+}
 
+.card .title {
+    font-size: 17px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+.card .text {
+    background-color: #d895c0;
+    color: blanchedalmond;
+    font-size: 13px;
+}
+
+.card .left {
+    margin-right: 120px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    color: #d895c0;
+}
